@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/.well-known/assetlinks.json",
-        "destination": "/public/assetlinks.json"
+        "source": "/.well-known/:match*",
+        "destination": "/.well-known/:match*"
       }
     ]
   }
