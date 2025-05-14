@@ -1,22 +1,12 @@
-{
-  "instantAppInfo": {
-    "url": "https://instantapp.effectizationstudio.com/hubolt",
-    "appPackage": "com.adagxr.app",
-    "appFingerprint": "09:6F:45:66:F2:D2:53:6A:AC:B8:F5:39:53:CD:0D:77:95:69:52:6E:A9:9E:9F:1F:69:C4:CF:1F:E3:E8:BD:75"
-  },
-  "arConfig": {
-    "targetImageUrl": "https://www.effectizationstudio.com/hubolt/targetimage",
-    "videoUrl": "https://www.effectizationstudio.com/hubolt/video",
-    "imagePlaneSize": {
-      "x": 0.12,
-      "z": 0.12,
-      "useDefault": false
-    },
-    "ctaButton": {
-      "text": "Buy Hubolt Watch",
-      "color": "#1E88E5",
-      "visibilityDelayMs": 2000,
-      "link": "https://www.effectizationstudio.com/hubolt/buy"
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.adagxr.app",
+      "sha256_cert_fingerprints": [
+        "09:6F:45:66:F2:D2:53:6A:AC:B8:F5:39:53:CD:0D:77:95:69:52:6E:A9:9E:9F:1F:69:C4:CF:1F:E3:E8:BD:75"
+      ]
     }
   }
-} 
+]
